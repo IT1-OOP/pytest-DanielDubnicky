@@ -18,3 +18,8 @@ def test_multiply_wrong():
 
 def test_divide():
     assert calculator.divide(6,2) == 3
+    
+def test_quadratic_formula():
+    assert calculator.solve_quadratic_formula(1, 2, 1) == (-1, -1)
+    assert calculator.solve_quadratic_formula(5, 2, 15) 
+    assert calculator.solve_quadratic_formula(0, 2, 15) 
