@@ -20,6 +20,6 @@ def test_divide():
     assert calculator.divide(6,2) == 3
     
 def test_quadratic_formula():
-    assert calculator.solve_quadratic_formula(1, 2, 1) == (-1, -1)
-    assert calculator.solve_quadratic_formula(5, 2, 15) 
-    assert calculator.solve_quadratic_formula(0, 2, 15) 
+    assert calculator.solve_quadratic_formula(1, 2, 1) == (-1.0, -1.0)
+    assert calculator.solve_quadratic_formula(5, 2, 15) == (-1.0,-5.34)
+    assert calculator.solve_quadratic_formula(0, 2, 15) == (-2.1, -6.2)
